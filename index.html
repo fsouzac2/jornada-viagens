@@ -10,19 +10,23 @@
 
 <body>
     <header>
-        <a href="index.html" title="Página Inicial">
+        <a class="logo" href="index.html" title="Página Inicial">
             <img src="/jornada-viagens/img/bussola-jornada-branca.png"
                 alt=" Bussola Logo da Jornada Viagens na cor preta">
         </a>
-        <img src="/jornada-viagens/img/menu.png" alt="Menu">
-        <nav>
-            <ul>
-                <li><a href="blog.html"     target="_blank" title="Blog">Blog</a></li>
-                <li><a href="pacotes.html"  target="_blank"  title="Pacotes de viagem">Pacotes de viagem</a></li>
-                <li><a href="contato.html"  target="_blank"  title="Contato">Contato</a></li>
-            </ul>
-        </nav>
-
+        <div class="navegation-menu">
+            <label for="menu">
+                <img src="img/menu.png" alt="menu" />
+            </label>
+            <input type="checkbox" id="menu" hidden />
+            <nav>
+                <ul>
+                    <li><a href="blog.html" target="_blank" title="Blog">Blog</a></li>
+                    <li><a href="pacotes.html" target="_blank" title="Pacotes de viagem">Pacotes de viagem</a></li>
+                    <li><a href="contato.html" target="_blank" title="Contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
 
     </header>
 
