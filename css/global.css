@@ -5,7 +5,7 @@
     font-display: swap;
 }
 
-:root{
+:root {
     --primary-color: #8F0101;
     --secundary-color: #B81515;
 
@@ -23,9 +23,22 @@
 
 
 /* CSS RESET */
-body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
 
+body {
+    font-family: 'Montserrat';
+}
